@@ -1,0 +1,68 @@
+KSAT,...2,...3,...4,...5,...6
+CulturInfo,en-US,,,,
+Software Version,1.6.5,,,,
+Firmware Version,1.5,,,,
+Last setting of the zero point,40909,,,,
+Serial Number,0424,,,,
+,,,,,
+File name,KSAT_measurement_F1-BD-B3_001,,,,
+Additional comments,,,,,
+,,,,,
+MEASUREMENT,,,,,
+Mode,FallingHead,,,,
+Sample rate [s],Auto,,,,
+Crown type,FilterPlateCrown,,,,
+Use Synthetic Data,FALSE,,,,
+,,,,,
+PARAMETERS,,,,,
+OPERATION PARAMETERS,,,,,
+H_end_abs [cm],0.5,Hydraulic head difference at stop of measurement,,,
+H_end_rel [-],0.25,Relative hydraulic head (with respect to initial pressure head) to stop measurement,,,
+dH_min [cm],0.1,Minimum hydraulic head difference for two successive readings,,,
+dH_ini [cm],1,Required hydraulic head increase between two readings to trigger automatic start of measurement campaign,,,
+GEOMETRY PARAMETERS,,,,,
+A_bur1 [cm²],4.524,Standard burette cross-sectional area,,,
+A_cap_in [cm²],0.075,Burette extension internal cross-sectional area,,,
+A_sample  [cm²],19.600000381469702,Sample cross-sectional area,,,
+L_bur [cm],22.5,Standard burette length,,,
+L_sample [cm],5.0999999046325701,Height of soil sample,,,
+L_plate_Bottom [cm],0.8,Bottom porous plate height,,,
+L_plate_Top [cm],0.3,Upper porous plate height,,,
+EVALUATION PARAMETERS,,,,,
+T_ref [°C],20,Reference temperature for K calculations,,,
+K_plate [cm/d],14000,Porous plate conductivity,,,
+Use Auto-Offset,TRUE,Use auto offset correction for measured hydraulic head,,,
+Max Auto-Offset [cm],1,Max. value for auto offset correction,,,
+Trigger Auto-Offset [cm],1,Hydraulic head change after auto offset correction becomes active,,,
+Start of measurement,11/5/2025 4:57:27 PM,,,,
+Test duration,00:24:26,,,,
+,,,,,
+RESULT,,,,,
+Use auto offset adjustment,TRUE,,,,
+Max offset adjustment [cm],1,,,,
+Fitting Parameter a [cm],18.55,"coefficient a of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",,,
+Fitting Parameter b [s-1],-5.05E-05,"coefficient b of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",,,
+Fitting Parameter c [cm],-1,"coefficient c of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",,,
+Fitting Parameter r2 [-],0.7684,coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data,,,
+Ks Total [cm/d],6.250,Saturated hydraulic conductivity [cm/d] of the entire system,,,
+Ks Total [m/s],7.27E-07,Saturated hydraulic conductivity [m/s] of the entire system,,,
+Ks Soil [cm/d],5.141,Saturated hydraulic conductivity [cm/d] of the soil sample itself,,,
+Ks Soil [m/s],5.98E-07,Saturated hydraulic conductivity [m/s] of the soil sample itself,,,
+Ks Soil normalized at 20 °C [cm/d],4.985,Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature,,,
+Ks Soil normalized at 20 °C [m/s],5.80E-07,Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature,,,
+,,,,,
+DATA,,,,,
+Date/Time,Runtime [ms],Runtime [s],Pressure Head [cm],Fitting [cm],Temperature [°C]
+45966.706569988397,647,0,19.552,19.552,21.31
+45966.706626006897,487,4.84,19.379000000000001,19.547000000000001,21.31
+45966.7066376968,497,5.85,19.353000000000002,19.547000000000001,21.31
+45966.706684351899,528,9.8800000000000008,19.248999999999999,19.542999999999999,21.31
+45966.706713749998,68,12.42,19.149000000000001,19.54,21.31
+45966.7067318056,628,13.98,18.998999999999999,19.539000000000001,21.31
+45966.706750092599,208,15.56,18.861000000000001,19.536999999999999,21.31
+45966.706769652803,898,17.25,18.736999999999998,19.536000000000001,21.31
+45966.718523240699,408,1032.76,18.634,18.608000000000001,21.3
+45966.719775497702,603,1140.96,18.530999999999999,18.512,21.3
+45966.721084293997,683,1254.04,18.43,18.413,21.3
+45966.7223819676,802,1366.16,18.329999999999998,18.314,21.3
+45966.723537592603,648,1466,18.227,18.227,21.3

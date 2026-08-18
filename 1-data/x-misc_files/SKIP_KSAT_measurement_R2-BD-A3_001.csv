@@ -1,0 +1,59 @@
+KSAT,...2,...3,...4,...5,...6
+CulturInfo,en-US,NA,NA,NA,NA
+Software Version,1.6.5,NA,NA,NA,NA
+Firmware Version,1.5,NA,NA,NA,NA
+Last setting of the zero point,40909,NA,NA,NA,NA
+Serial Number,0424,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+File name,KSAT_measurement_R2-BD-A3_001,NA,NA,NA,NA
+Additional comments,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+MEASUREMENT,NA,NA,NA,NA,NA
+Mode,FallingHead,NA,NA,NA,NA
+Sample rate [s],Auto,NA,NA,NA,NA
+Crown type,FilterPlateCrown,NA,NA,NA,NA
+Use Synthetic Data,FALSE,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+PARAMETERS,NA,NA,NA,NA,NA
+OPERATION PARAMETERS,NA,NA,NA,NA,NA
+H_end_abs [cm],0.5,Hydraulic head difference at stop of measurement,NA,NA,NA
+H_end_rel [-],0.25,Relative hydraulic head (with respect to initial pressure head) to stop measurement,NA,NA,NA
+dH_min [cm],0.1,Minimum hydraulic head difference for two successive readings,NA,NA,NA
+dH_ini [cm],1,Required hydraulic head increase between two readings to trigger automatic start of measurement campaign,NA,NA,NA
+GEOMETRY PARAMETERS,NA,NA,NA,NA,NA
+A_bur1 [cm²],4.524,Standard burette cross-sectional area,NA,NA,NA
+A_cap_in [cm²],0.075,Burette extension internal cross-sectional area,NA,NA,NA
+A_sample  [cm²],19.600000381469702,Sample cross-sectional area,NA,NA,NA
+L_bur [cm],22.5,Standard burette length,NA,NA,NA
+L_sample [cm],5.0999999046325701,Height of soil sample,NA,NA,NA
+L_plate_Bottom [cm],0.8,Bottom porous plate height,NA,NA,NA
+L_plate_Top [cm],0.3,Upper porous plate height,NA,NA,NA
+EVALUATION PARAMETERS,NA,NA,NA,NA,NA
+T_ref [°C],20,Reference temperature for K calculations,NA,NA,NA
+K_plate [cm/d],14000,Porous plate conductivity,NA,NA,NA
+Use Auto-Offset,TRUE,Use auto offset correction for measured hydraulic head,NA,NA,NA
+Max Auto-Offset [cm],1,Max. value for auto offset correction,NA,NA,NA
+Trigger Auto-Offset [cm],1,Hydraulic head change after auto offset correction becomes active,NA,NA,NA
+Start of measurement,11/19/2025 3:40:45 PM,NA,NA,NA,NA
+Test duration,00:00:04,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+RESULT,NA,NA,NA,NA,NA
+Use auto offset adjustment,TRUE,NA,NA,NA,NA
+Max offset adjustment [cm],1,NA,NA,NA,NA
+Fitting Parameter a [cm],10.44,"coefficient a of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter b [s-1],-4.32E-01,"coefficient b of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter c [cm],-0.7,"coefficient c of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter r2 [-],1.0000,coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data,NA,NA,NA
+Ks Total [cm/d],53370.000,Saturated hydraulic conductivity [cm/d] of the entire system,NA,NA,NA
+Ks Total [m/s],6.21E-03,Saturated hydraulic conductivity [m/s] of the entire system,NA,NA,NA
+Ks Soil [cm/d],135650.000,Saturated hydraulic conductivity [cm/d] of the soil sample itself,NA,NA,NA
+Ks Soil [m/s],1.58E-02,Saturated hydraulic conductivity [m/s] of the soil sample itself,NA,NA,NA
+Ks Soil normalized at 20 °C [cm/d],130800.000,Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature,NA,NA,NA
+Ks Soil normalized at 20 °C [m/s],1.52E-02,Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+DATA,NA,NA,NA,NA,NA
+Date/Time,Runtime [ms],Runtime [s],Pressure Head [cm],Fitting [cm],Temperature [°C]
+45980.653300046302,124,0,11.135,11.135,21.55
+45980.653323437502,145,2.02,5.0640000000000001,5.0609999999999999,21.55
+45980.653334780101,125,3,3.5569999999999999,3.5569999999999999,21.55
+45980.653348553198,315,4.1900000000000004,2.4489999999999998,-99999,21.55

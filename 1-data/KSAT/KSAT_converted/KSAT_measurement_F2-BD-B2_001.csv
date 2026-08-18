@@ -1,0 +1,77 @@
+KSAT,...2,...3,...4,...5,...6
+CulturInfo,en-US,NA,NA,NA,NA
+Software Version,1.6.5,NA,NA,NA,NA
+Firmware Version,1.5,NA,NA,NA,NA
+Last setting of the zero point,40909,NA,NA,NA,NA
+Serial Number,0424,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+File name,KSAT_measurement_F2-BD-B2_001,NA,NA,NA,NA
+Additional comments,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+MEASUREMENT,NA,NA,NA,NA,NA
+Mode,FallingHead,NA,NA,NA,NA
+Sample rate [s],Auto,NA,NA,NA,NA
+Crown type,FilterPlateCrown,NA,NA,NA,NA
+Use Synthetic Data,FALSE,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+PARAMETERS,NA,NA,NA,NA,NA
+OPERATION PARAMETERS,NA,NA,NA,NA,NA
+H_end_abs [cm],0.5,Hydraulic head difference at stop of measurement,NA,NA,NA
+H_end_rel [-],0.25,Relative hydraulic head (with respect to initial pressure head) to stop measurement,NA,NA,NA
+dH_min [cm],0.1,Minimum hydraulic head difference for two successive readings,NA,NA,NA
+dH_ini [cm],1,Required hydraulic head increase between two readings to trigger automatic start of measurement campaign,NA,NA,NA
+GEOMETRY PARAMETERS,NA,NA,NA,NA,NA
+A_bur1 [cm²],4.524,Standard burette cross-sectional area,NA,NA,NA
+A_cap_in [cm²],0.075,Burette extension internal cross-sectional area,NA,NA,NA
+A_sample  [cm²],19.600000381469702,Sample cross-sectional area,NA,NA,NA
+L_bur [cm],22.5,Standard burette length,NA,NA,NA
+L_sample [cm],5.0999999046325701,Height of soil sample,NA,NA,NA
+L_plate_Bottom [cm],0.8,Bottom porous plate height,NA,NA,NA
+L_plate_Top [cm],0.3,Upper porous plate height,NA,NA,NA
+EVALUATION PARAMETERS,NA,NA,NA,NA,NA
+T_ref [°C],20,Reference temperature for K calculations,NA,NA,NA
+K_plate [cm/d],14000,Porous plate conductivity,NA,NA,NA
+Use Auto-Offset,TRUE,Use auto offset correction for measured hydraulic head,NA,NA,NA
+Max Auto-Offset [cm],1,Max. value for auto offset correction,NA,NA,NA
+Trigger Auto-Offset [cm],1,Hydraulic head change after auto offset correction becomes active,NA,NA,NA
+Start of measurement,10/30/2025 3:16:31 PM,NA,NA,NA,NA
+Test duration,01:22:16,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+RESULT,NA,NA,NA,NA,NA
+Use auto offset adjustment,TRUE,NA,NA,NA,NA
+Max offset adjustment [cm],1,NA,NA,NA,NA
+Fitting Parameter a [cm],11.35,"coefficient a of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter b [s-1],-3.81E-05,"coefficient b of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter c [cm],-1,"coefficient c of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s",NA,NA,NA
+Fitting Parameter r2 [-],0.9981,coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data,NA,NA,NA
+Ks Total [cm/d],4.714,Saturated hydraulic conductivity [cm/d] of the entire system,NA,NA,NA
+Ks Total [m/s],5.48E-07,Saturated hydraulic conductivity [m/s] of the entire system,NA,NA,NA
+Ks Soil [cm/d],3.878,Saturated hydraulic conductivity [cm/d] of the soil sample itself,NA,NA,NA
+Ks Soil [m/s],4.51E-07,Saturated hydraulic conductivity [m/s] of the soil sample itself,NA,NA,NA
+Ks Soil normalized at 20 °C [cm/d],3.785,Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature,NA,NA,NA
+Ks Soil normalized at 20 °C [m/s],4.40E-07,Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+DATA,NA,NA,NA,NA,NA
+Date/Time,Runtime [ms],Runtime [s],Pressure Head [cm],Fitting [cm],Temperature [°C]
+45960.636470705998,69,0,12.348000000000001,12.348000000000001,20.95
+45960.636517812498,139,4.07,12.35,12.346,20.95
+45960.636529386597,139,5.07,12.347,12.346,20.95
+45960.639116400504,657,228.59,12.242000000000001,12.25,20.97
+45960.642405601902,844,512.77,12.141,12.128,20.97
+45960.645029768501,572,739.5,12.039,12.032,20.98
+45960.647699942099,275,970.21,11.935,11.936,21
+45960.650167199099,446,1183.3800000000001,11.835000000000001,11.847,20.99
+45960.6524281366,791,1378.72,11.731,11.766999999999999,20.99
+45960.655281435204,316,1625.25,11.631,11.666,21.02
+45960.6578373148,144,1846.07,11.528,11.577,21.02
+45960.660197615704,74,2050,11.426,11.494999999999999,21.02
+45960.663311736098,134,2319.06,11.315,11.388,21.04
+45960.666131435202,756,2562.69,11.214,11.292,21.04
+45960.669513923604,3,2854.93,11.113,11.178000000000001,21.06
+45960.6722043634,457,3087.39,11.012,11.087999999999999,21.07
+45960.675762615698,890,3394.82,10.911,10.97,21.09
+45960.6788229745,305,3659.24,10.811,10.87,21.11
+45960.682594675898,180,3985.11,10.706,10.747999999999999,21.12
+45960.686478634299,754,4320.68,10.605,10.624000000000001,21.12
+45960.689901979204,531,4616.46,10.503,10.516,21.13
+45960.693606655099,615,4936.55,10.401,10.401,21.15

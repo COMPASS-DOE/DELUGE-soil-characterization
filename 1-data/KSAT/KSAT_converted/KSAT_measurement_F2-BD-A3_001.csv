@@ -1,0 +1,98 @@
+KSAT,...2,...3,...4
+CulturInfo,en-US,NA,NA
+Software Version,1.6.5,NA,NA
+Firmware Version,0.0,NA,NA
+Last setting of the zero point,40909,NA,NA
+Serial Number,0000,NA,NA
+NA,NA,NA,NA
+File name,KSAT_measurement_F2-BD-A3_001,NA,NA
+Additional comments,NA,NA,NA
+NA,NA,NA,NA
+MEASUREMENT,NA,NA,NA
+Mode,ConstantHead,NA,NA
+Sample rate [s],1,NA,NA
+Crown type,FilterPlateCrown,NA,NA
+Use Synthetic Data,FALSE,NA,NA
+NA,NA,NA,NA
+PARAMETERS,NA,NA,NA
+OPERATION PARAMETERS,NA,NA,NA
+H_end_abs [cm],0.5,Hydraulic head difference at stop of measurement,NA
+H_end_rel [-],0.25,Relative hydraulic head (with respect to initial pressure head) to stop measurement,NA
+dH_min [cm],0.1,Minimum hydraulic head difference for two successive readings,NA
+dH_ini [cm],1,Required hydraulic head increase between two readings to trigger automatic start of measurement campaign,NA
+GEOMETRY PARAMETERS,NA,NA,NA
+A_bur1 [cm²],4.524,Standard burette cross-sectional area,NA
+A_cap_in [cm²],0.075,Burette extension internal cross-sectional area,NA
+A_cap_out [cm²],0.224,Capillary total cross-sectional area,NA
+A_sample  [cm²],19.600000381469702,Sample cross-sectional area,NA
+L_bur [cm],22.5,Standard burette length,NA
+L_sample [cm],5.0999999046325701,Height of soil sample,NA
+L_plate_Bottom [cm],0.8,Bottom porous plate height,NA
+L_plate_Top [cm],0.3,Upper porous plate height,NA
+EVALUATION PARAMETERS,NA,NA,NA
+T_ref [°C],20,Reference temperature for K calculations,NA
+K_plate [cm/d],14000,Porous plate conductivity,NA
+Use Auto-Offset,TRUE,Use auto offset correction for measured hydraulic head,NA
+Max Auto-Offset [cm],1,Max. value for auto offset correction,NA
+Trigger Auto-Offset [cm],1,Hydraulic head change after auto offset correction becomes active,NA
+Start of measurement,10/16/2025 12:19:52 PM,NA,NA
+Test duration,00:00:59,NA,NA
+NA,NA,NA,NA
+RESULT,NA,NA,NA
+Water level change rate [cm/d],0.000,Average water level decrease per time in burette during constant head percolation [cm/s],NA
+R2 [-],NaN,coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data,NA
+Mean flux density [cm/d],0.000,Volume of water per area and time that passes  the sample's cross section during constant head percolation [cm³/(cm² s)],NA
+Mean pressure head [cm],0.000,Temporal mean of water pressure head at the inlet of the sample during constant head percolation [cm],NA
+Total system length [cm],0.0,Total length of porous media in water percolation: equal to thickness of the inlet plate + height of sample + thickness of outlet plate (if used),NA
+Mean pressure head gradient  [-],0.0000,Difference of pressure head at inlet and outlet divided by total system length [cm/cm],NA
+Ks Total [cm/d],0.000,Saturated hydraulic conductivity [cm/d] of the entire system,NA
+Ks Total [m/s],0.00E+000,Saturated hydraulic conductivity [m/s] of the entire system,NA
+Ks Soil [cm/d],0.000,Saturated hydraulic conductivity [cm/d] of the soil sample itself,NA
+Ks Soil [m/s],0.00E+000,Saturated hydraulic conductivity [m/s] of the soil sample itself,NA
+Ks Soil normalized at 20 °C [cm/d],0.000,Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature,NA
+Ks Soil normalized at 20 °C [m/s],0.00E+000,Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature,NA
+NA,NA,NA,NA
+DATA,NA,NA,NA
+Date/Time,Runtime [s],Pressure Head [cm],Cumulative Discharge Q [cm]
+NA,NA,NA,NA
+Date/Time,Runtime [s],Pressure Head [cm],Temperature [°C]
+45946.513800833302,0,18.128,20.75
+45946.513861828702,0,17.190000000000001,20.75
+45946.513873738397,0,17.010000000000002,20.75
+45946.513885428198,0,16.908000000000001,20.75
+45946.513897233803,0,16.754000000000001,20.75
+45946.513908807901,0,16.594000000000001,20.75
+45946.513920613397,0,16.5,20.75
+45946.513932766196,0,16.346,20.75
+45946.513944919003,0,16.21,20.75
+45946.513956724499,0,16.119,20.75
+45946.513968645799,0,15.993,20.75
+45946.513979988398,0,15.872,20.75
+45946.513992141197,0,15.795999999999999,20.75
+45946.514003715303,0,15.726000000000001,20.75
+45946.514015289402,0,15.664999999999999,20.75
+45946.514026863399,0,15.61,20.75
+45946.514039016198,0,15.555999999999999,20.75
+45946.514051284699,0,15.507,20.75
+45946.514063090297,0,15.438000000000001,20.75
+45946.514074548599,0,15.4,20.75
+45946.514086701398,0,15.474,20.75
+45946.514098506901,0,15.77,20.75
+45946.514110196797,0,16.271999999999998,20.75
+45946.514121655098,0,16.635000000000002,20.75
+45946.514133692101,0,17.071999999999999,20.75
+45946.514145601897,0,17.225000000000001,20.75
+45946.5141568287,0,17.259,20.75
+45946.514168518501,0,17.294,20.75
+45946.514180208302,0,17.314,20.75
+45946.514191898103,0,17.34,20.75
+45946.514204398103,0,17.344999999999999,20.75
+45946.514215740703,0,17.332000000000001,20.75
+45946.514227893502,0,17.312000000000001,20.75
+45946.514239120399,0,17.03,20.75
+45946.514250578701,0,16.832999999999998,20.75
+45946.514262037002,0,16.568999999999999,20.75
+45946.514322175899,0,15.973000000000001,20.78
+45946.514466342604,0,14.736000000000001,20.73
+45946.514478611098,0,14.611000000000001,20.73
+45946.514490185204,0,14.58,20.73

@@ -1,0 +1,129 @@
+KSAT,...2,...3,...4
+CulturInfo,en-US,NA,NA
+Software Version,1.6.5,NA,NA
+Firmware Version,1.5,NA,NA
+Last setting of the zero point,40909,NA,NA
+Serial Number,0424,NA,NA
+NA,NA,NA,NA
+File name,KSAT_measurement_F3-BD-A3_001,NA,NA
+Additional comments,NA,NA,NA
+NA,NA,NA,NA
+MEASUREMENT,NA,NA,NA
+Mode,ConstantHead,NA,NA
+Sample rate [s],1,NA,NA
+Crown type,FilterPlateCrown,NA,NA
+Use Synthetic Data,FALSE,NA,NA
+NA,NA,NA,NA
+PARAMETERS,NA,NA,NA
+OPERATION PARAMETERS,NA,NA,NA
+H_end_abs [cm],0.5,Hydraulic head difference at stop of measurement,NA
+H_end_rel [-],0.25,Relative hydraulic head (with respect to initial pressure head) to stop measurement,NA
+dH_min [cm],0.1,Minimum hydraulic head difference for two successive readings,NA
+dH_ini [cm],1,Required hydraulic head increase between two readings to trigger automatic start of measurement campaign,NA
+GEOMETRY PARAMETERS,NA,NA,NA
+A_bur1 [cm²],4.524,Standard burette cross-sectional area,NA
+A_cap_in [cm²],0.075,Burette extension internal cross-sectional area,NA
+A_cap_out [cm²],0.224,Capillary total cross-sectional area,NA
+A_sample  [cm²],19.600000381469702,Sample cross-sectional area,NA
+L_bur [cm],22.5,Standard burette length,NA
+L_sample [cm],5.0999999046325701,Height of soil sample,NA
+L_plate_Bottom [cm],0.8,Bottom porous plate height,NA
+L_plate_Top [cm],0.3,Upper porous plate height,NA
+EVALUATION PARAMETERS,NA,NA,NA
+T_ref [°C],20,Reference temperature for K calculations,NA
+K_plate [cm/d],14000,Porous plate conductivity,NA
+Use Auto-Offset,TRUE,Use auto offset correction for measured hydraulic head,NA
+Max Auto-Offset [cm],1,Max. value for auto offset correction,NA
+Trigger Auto-Offset [cm],1,Hydraulic head change after auto offset correction becomes active,NA
+Start of measurement,10/16/2025 12:22:07 PM,NA,NA
+Test duration,00:01:56,NA,NA
+NA,NA,NA,NA
+RESULT,NA,NA,NA
+Water level change rate [cm/d],7808.392,Average water level decrease per time in burette during constant head percolation [cm/s],NA
+R2 [-],0.9903,coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data,NA
+Mean flux density [cm/d],1713.066,Volume of water per area and time that passes  the sample's cross section during constant head percolation [cm³/(cm² s)],NA
+Mean pressure head [cm],12.775,Temporal mean of water pressure head at the inlet of the sample during constant head percolation [cm],NA
+Total system length [cm],6.2,Total length of porous media in water percolation: equal to thickness of the inlet plate + height of sample + thickness of outlet plate (if used),NA
+Mean pressure head gradient  [-],2.0605,Difference of pressure head at inlet and outlet divided by total system length [cm/cm],NA
+Ks Total [cm/d],831.391,Saturated hydraulic conductivity [cm/d] of the entire system,NA
+Ks Total [m/s],9.67E-05,Saturated hydraulic conductivity [m/s] of the entire system,NA
+Ks Soil [cm/d],689.167,Saturated hydraulic conductivity [cm/d] of the soil sample itself,NA
+Ks Soil [m/s],8.01E-05,Saturated hydraulic conductivity [m/s] of the soil sample itself,NA
+Ks Soil normalized at 20 °C [cm/d],676.953,Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature,NA
+Ks Soil normalized at 20 °C [m/s],7.87E-05,Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature,NA
+NA,NA,NA,NA
+DATA,NA,NA,NA
+Date/Time,Runtime [s],Pressure Head [cm],Cumulative Discharge Q [cm]
+45946.515713275498,0,18,0
+45946.5161334722,36.31,14,0.878
+45946.516727893497,87.66,10,1.7549999999999999
+Date/Time,Runtime [s],Pressure Head [cm],Temperature [°C]
+45946.515366041698,-30,-4.0220000000000002,20.74
+45946.515442881901,-23.36,11.664999999999999,20.75
+45946.515456087996,-22.22,11.82,20.75
+45946.515476921297,-20.420000000000002,12.005000000000001,20.75
+45946.515498680601,-18.54,12.204000000000001,20.75
+45946.515524618102,-16.3,13.427,20.75
+45946.515545219903,-14.52,14.632999999999999,20.75
+45946.515567210598,-12.62,15.901999999999999,20.74
+45946.515588044,-10.82,16.420000000000002,20.74
+45946.515608645801,-9.0399999999999991,16.568999999999999,20.74
+45946.515629247697,-7.26,17.187000000000001,20.74
+45946.515650312504,-5.44,17.420999999999999,20.74
+45946.515670914298,-3.66,17.579000000000001,20.75
+45946.515691979199,-1.84,17.561,20.75
+45946.515709340303,-0.34,17.527000000000001,20.75
+45946.515727164398,1.2,17.462,20.75
+45946.5157461458,2.84,17.401,20.75
+45946.515764664298,4.4400000000000004,17.13,20.75
+45946.515783182898,6.04,16.489000000000001,20.75
+45946.515801805603,7.65,16.047000000000001,20.75
+45946.515820786997,9.2899999999999991,15.669,20.75
+45946.5158386111,10.83,15.336,20.75
+45946.515856550897,12.38,15.04,20.75
+45946.515875069403,13.98,14.795999999999999,20.75
+45946.5158938194,15.6,14.571999999999999,20.75
+45946.515912338,17.2,14.381,20.75
+45946.515931087997,18.82,14.207000000000001,20.75
+45946.515949606503,20.420000000000002,14.053000000000001,20.75
+45946.515967893502,22,13.920999999999999,20.75
+45946.515985949103,23.56,13.808,20.75
+45946.516004236102,25.14,13.702,20.75
+45946.5160227546,26.74,13.601000000000001,20.75
+45946.516039872702,28.22,13.547000000000001,20.75
+45946.516058159701,29.8,13.472,20.75
+45946.516076446802,31.38,13.397,20.75
+45946.516095057901,32.99,13.34,20.75
+45946.516114490703,34.67,13.257999999999999,20.75
+45946.516132662,36.24,13.212,20.75
+45946.5161551157,38.18,13.161,20.75
+45946.516173865697,39.799999999999997,13.12,20.75
+45946.5161936574,41.51,13.079000000000001,20.75
+45946.516211365699,43.04,13.044,20.75
+45946.516230115703,44.66,13.010999999999999,20.75
+45946.516247939799,46.2,12.974,20.75
+45946.5162659954,47.76,12.946,20.75
+45946.516283587996,49.27,12.914999999999999,20.75
+45946.516302569398,50.91,12.881,20.75
+45946.516321319403,52.54,12.491,20.75
+45946.516341215298,54.25,12.144,20.75
+45946.516359270798,55.81,11.845000000000001,20.75
+45946.516377557899,57.39,11.595000000000001,20.75
+45946.516396655097,59.04,11.298,20.75
+45946.516414826401,60.61,11.122999999999999,20.75
+45946.516433576398,62.23,10.978999999999999,20.75
+45946.516452326403,63.85,10.87,20.75
+45946.5164726968,65.61,10.771000000000001,20.75
+45946.5164905208,67.150000000000006,10.702,20.75
+45946.516509849498,68.819999999999993,10.593999999999999,20.75
+45946.516528599503,70.44,10.477,20.75
+45946.516547580999,72.08,10.403,20.75
+45946.516566562503,73.72,10.327999999999999,20.75
+45946.5165853125,75.34,10.247999999999999,20.75
+45946.516603136602,76.88,10.164,20.75
+45946.516621192102,78.44,10.048,20.75
+45946.516639710702,80.040000000000006,9.9629999999999992,20.75
+45946.516658680601,81.680000000000007,9.8569999999999993,20.75
+45946.5166769676,83.26,9.7520000000000007,20.75
+45946.516695370403,84.85,9.6440000000000001,20.75
+45946.516713888901,86.45,9.5809999999999995,20.75
