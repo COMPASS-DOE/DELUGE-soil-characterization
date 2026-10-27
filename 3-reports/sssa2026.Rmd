@@ -1,0 +1,53 @@
+---
+title: "sssa2026"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = F,
+                      error = F,
+                      warning = F
+                      )
+```
+
+
+```{r}
+source("2-code/0-packages.R")
+source("2-code/1-processing.R")
+```
+
+
+## AGGREGATES
+
+```{r}
+data_long %>% 
+  filter(name == "water_stable_aggregates_mwd") %>% 
+   ggplot(aes(x = plot, y = value, color = horizon))+
+  geom_point(size = 3, width = 0.1)+
+#  facet_wrap(~source + name, scale = "free_y")+
+    labs(y = "stable aggregates mwd")
+```
+
+## MINERALOGY
+
+```{r}
+data_long %>% 
+  filter(name == "mica") %>% 
+   ggplot(aes(x = plot, y = value * 100, color = horizon))+
+  geom_point(size = 3, width = 0.1)+
+#  facet_wrap(~source + name, scale = "free_y")+
+    labs(y = "mica, %")
+```
+
+
+```{r}
+data_long %>% 
+  filter(name == "quartz") %>% 
+   ggplot(aes(x = plot, y = value * 100, color = horizon))+
+  geom_point(size = 3, width = 0.1)+
+ # facet_wrap(~source + name, scale = "free_y")+
+  labs(y = "quartz, %")
+
+  
+```
