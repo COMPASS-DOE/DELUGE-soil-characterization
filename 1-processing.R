@@ -125,7 +125,7 @@ process_ksat = function(ksat){
     
 }
 
-
+ksat_processed = process_ksat(ksat)
 ksat_processed %>% 
   ggplot(aes(x = plot, y = Ks_cmd, color = horizon))+
   geom_point(size = 5, width = 0.1)+
@@ -200,7 +200,7 @@ import_wrc_parameters = function(FILEPATH){
 }
 wrc_parameters = import_wrc_parameters(FILEPATH = "1-data/HYPROP")
 
-
+wrc_processed = process_wrc(wrc_data)
 wrc_processed %>% 
   filter(hPa_fit >= 0 | hPa_eval >= 0) %>% 
   ggplot(aes(y = water_content_vol_percent, color = sample))+
@@ -280,3 +280,4 @@ data_long %>%
   geom_point(size = 4)+
   labs(y = "COLE, cm/cm")+
   facet_wrap(~horizon)
+
